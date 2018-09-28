@@ -331,7 +331,7 @@ client.on('message', message => {
 });
 
 
-const adminprefix = "L";
+const adminprefix = "L1";
 const devs = ['283580465862934539','400709582285963277','376792971573460996'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
